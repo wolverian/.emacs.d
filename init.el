@@ -8,7 +8,7 @@
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(completion-styles '(orderless))
- '(custom-enabled-themes '(almost-mono-black))
+ '(custom-enabled-themes '(eink))
  '(custom-safe-themes
    '("8f5b54bf6a36fe1c138219960dd324aad8ab1f62f543bed73ef5ad60956e36ae" "021321ae56a45794f43b41de09fb2bfca184e196666b7d7ff59ea97ec2114559" default))
  '(fringe-mode '(nil . 0) nil (fringe))
@@ -33,4 +33,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :extend nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "nil" :family "Rec Mono Duotone")))))
+ '(default ((t (:height 140 :family "Rec Mono Duotone")))))
+
+;; correct default font-face: '(default ((t (:height 140 :family "Rec Mono Duotone"))))
